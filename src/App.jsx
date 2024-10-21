@@ -30,7 +30,7 @@ function App() {
         </Container>
       </Navbar>
 
-      {/* Suwak */}
+      {/* Slider */}
       <Carousel className="mt-4">
         <Carousel.Item>
           <img
@@ -71,18 +71,22 @@ function App() {
       <Container className="mt-5">
         <h1 className="text-center">Vite + React + Bootstrap</h1>
 
-        {/* Karta z licznikiem */}
+        {/* Karta z informacjami */}
         <Row className="justify-content-center mt-4">
           <Col md={6}>
             <Card className="text-center">
+              <Card.Img variant="top" src="https://wallpapercave.com/wp/wp10337516.jpg" alt="Card image" />
               <Card.Body>
-                <Card.Title>Obecna wartość licznika: {count}</Card.Title>
-                <Button variant="primary" onClick={() => setCount((count) => count + 1)}>
-                  Zwiększ licznik
+                <Card.Title>Winter is very nice</Card.Title>
+                <Card.Subtitle className="mb-2 text-muted">Funkcje Card:</Card.Subtitle>
+                <ul className="list-unstyled">
+                  <li>✔️ Łatwa w użyciu</li>
+                  <li>✔️ Responsywna</li>
+                  <li>✔️ Integracja z React i Bootstrap</li>
+                </ul>
+                <Button variant="primary" onClick={() => alert('Przycisk kliknięty!')}>
+                  Dowiedz się więcej
                 </Button>
-                <p className="mt-3">
-                  Edytuj <code>src/App.jsx</code> i zapisz, aby przetestować HMR.
-                </p>
               </Card.Body>
             </Card>
           </Col>
