@@ -1,0 +1,22 @@
+body {
+    background-image: url('https://img3.wallspic.com/previews/9/7/5/8/5/158579/158579-winter-snow-plant-world-natural_landscape-x750.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+h1 {
+  color: gray;
+}
+
+.form-label {
+  color: gray;
+}
+
+.rounded-sm {
+  border-radius: 50px;
+}
