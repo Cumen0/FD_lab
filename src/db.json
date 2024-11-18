@@ -1,0 +1,30 @@
+{
+    "cars": [
+       {
+          "id": 1,
+          "brand": "Toyota",
+          "model": "Corolla",
+          "year": 2024,
+          "owner": {
+             "name": "Alice Cooper",
+             "phone": "+1-234-567-8903",
+             "email": "alice.cooper@email.com"
+          },
+          "color": "Red",
+          "image": "https://img-optimize.toyota-europe.com/resize/ccis/680x680/zip/pl/configurationtype/visual-for-grade-selector/product-token/8a245583-f14c-4632-9a8b-be4a2fbc45b7/grade/6aa65ce3-2d39-461a-a0ec-0254aeaf1c58/body/74469257-47ae-46eb-859d-2c693e6726ca/fallback/true/padding/50,50,50,50/image-quality/70/day-exterior-4.png"
+       },
+       {
+          "id": 2,
+          "brand": "Honda",
+          "model": "Accord",
+          "year": 2023,
+          "owner": {
+             "name": "David Lee",
+             "phone": "+1-234-567-8904",
+             "email": "david.lee@email.com"
+          },
+          "color": "Blue",
+          "image": "https://usaautoonline.azurewebsites.net/media/1399/z22115956ier-honda-accord-2017.jpg"
+       }
+    ]
+}

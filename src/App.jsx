@@ -1,12 +1,9 @@
-import React from 'react';
-import TodoApp from './components/TodoApp';
+import './App.css'
+import 'bootstrap/dist/css/bootstrap.min.css'
+import DataDisplayApp from './components/DataDisplayApp'
 
 function App() {
-  return (
-    <>
-      <TodoApp />
-    </>
-  );
+   return <DataDisplayApp />
 }
 
-export default App;
+export default App
